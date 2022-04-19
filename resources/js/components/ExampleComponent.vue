@@ -1,21 +1,17 @@
 <template>
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-8">
-        <div class="card">
-          <div class="card-header">Example Component</div>
-
-          <div class="card-body">hallo saya hamdan</div>
+    <section class="section">
+        <div class="section-header">
+            <h1>Blank Page</h1>
         </div>
-      </div>
-    </div>
-  </div>
+
+        <div class="section-body"></div>
+    </section>
 </template>
 
 <script>
 export default {
-  mounted() {
-    console.log("Component mounted.");
-  },
+    mounted() {
+        console.log("Component mounted.");
+    },
 };
 </script>

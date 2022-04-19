@@ -2075,10 +2075,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   mounted: function mounted() {
     console.log("Component mounted.");
@@ -37563,20 +37559,12 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row justify-content-center" }, [
-        _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _vm._v("Example Component"),
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _vm._v("hallo saya hamdan"),
-            ]),
-          ]),
-        ]),
+    return _c("section", { staticClass: "section" }, [
+      _c("div", { staticClass: "section-header" }, [
+        _c("h1", [_vm._v("Blank Page")]),
       ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "section-body" }),
     ])
   },
 ]
